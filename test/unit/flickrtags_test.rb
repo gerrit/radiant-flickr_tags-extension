@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class FlickrTagsTest < Test::Unit::TestCase
+class FlickrTagsTest < ActiveSupport::TestCase
   fixtures :pages
   test_helper :render 
 
